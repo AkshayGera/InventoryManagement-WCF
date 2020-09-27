@@ -1,0 +1,150 @@
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\InventoryClient.dll.config
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\InventoryClient.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\InventoryClient.pdb
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csc.exe
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csc.exe.config
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csc.rsp
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csi.exe
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csi.exe.config
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\csi.rsp
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.AppContext.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Console.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\vbc.exe
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\vbc.exe.config
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\vbc.rsp
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Antlr3.Runtime.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Newtonsoft.Json.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\System.Web.Optimization.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\WebGrease.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\System.Web.Optimization.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Newtonsoft.Json.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Antlr3.Runtime.pdb
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csprojAssemblyReference.cache
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csproj.CoreCompileInputs.cache
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csproj.CopyComplete
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\obj\Debug\InventoryClient.dll
+C:\Users\Akshay\source\repos\InventoryClient\InventoryClient\obj\Debug\InventoryClient.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\InventoryClient.dll.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\InventoryClient.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\InventoryClient.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csc.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csc.exe.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csc.rsp
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csi.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csi.exe.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\csi.rsp
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.AppContext.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Console.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\vbc.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\vbc.exe.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\vbc.rsp
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Antlr3.Runtime.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Newtonsoft.Json.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\System.Web.Optimization.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\WebGrease.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\System.Web.Optimization.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Newtonsoft.Json.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Antlr3.Runtime.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csprojAssemblyReference.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csproj.CoreCompileInputs.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\obj\Debug\InventoryClient.csproj.CopyComplete
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\obj\Debug\InventoryClient.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryClient\InventoryClient\obj\Debug\InventoryClient.pdb

@@ -1,0 +1,11 @@
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryHost.exe.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryHost.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryHost.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryService.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryService.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\bin\Debug\InventoryService.dll.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\obj\Debug\InventoryHost.csprojAssemblyReference.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\obj\Debug\InventoryHost.csproj.CoreCompileInputs.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\obj\Debug\InventoryHost.csproj.CopyComplete
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\obj\Debug\InventoryHost.exe
+C:\Users\Akshay\Desktop\SOC Project\InventoryHost\InventoryHost\obj\Debug\InventoryHost.pdb

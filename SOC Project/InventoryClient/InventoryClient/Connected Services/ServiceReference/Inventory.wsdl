@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Inventory" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_InventoryInterface_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8000/InventoryService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8000/InventoryService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8000/InventoryService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/InventoryService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="InventoryInterface_GetProducts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProducts" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProducts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductWithName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductWithName" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductWithName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductWithNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductWithId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductWithId" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductWithId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductWithIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductsOfCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsOfCategory" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_GetProductsOfCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsOfCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_AddProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddProduct" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_AddProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdateStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStock" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdateStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdatePrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePrice" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdatePrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdateName_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateName" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_UpdateName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_DeleteProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProduct" />
+  </wsdl:message>
+  <wsdl:message name="InventoryInterface_DeleteProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProductResponse" />
+  </wsdl:message>
+  <wsdl:portType name="InventoryInterface">
+    <wsdl:operation name="GetProducts">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/GetProducts" message="tns:InventoryInterface_GetProducts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/GetProductsResponse" message="tns:InventoryInterface_GetProducts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithName">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/GetProductWithName" message="tns:InventoryInterface_GetProductWithName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/GetProductWithNameResponse" message="tns:InventoryInterface_GetProductWithName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithId">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/GetProductWithId" message="tns:InventoryInterface_GetProductWithId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/GetProductWithIdResponse" message="tns:InventoryInterface_GetProductWithId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsOfCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/GetProductsOfCategory" message="tns:InventoryInterface_GetProductsOfCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/GetProductsOfCategoryResponse" message="tns:InventoryInterface_GetProductsOfCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/AddProduct" message="tns:InventoryInterface_AddProduct_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/AddProductResponse" message="tns:InventoryInterface_AddProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/UpdateStock" message="tns:InventoryInterface_UpdateStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/UpdateStockResponse" message="tns:InventoryInterface_UpdateStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/UpdatePrice" message="tns:InventoryInterface_UpdatePrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/UpdatePriceResponse" message="tns:InventoryInterface_UpdatePrice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateName">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/UpdateName" message="tns:InventoryInterface_UpdateName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/UpdateNameResponse" message="tns:InventoryInterface_UpdateName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProduct">
+      <wsdl:input wsaw:Action="http://tempuri.org/InventoryInterface/DeleteProduct" message="tns:InventoryInterface_DeleteProduct_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/InventoryInterface/DeleteProductResponse" message="tns:InventoryInterface_DeleteProduct_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_InventoryInterface" type="tns:InventoryInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetProducts">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/GetProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithName">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/GetProductWithName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithId">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/GetProductWithId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsOfCategory">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/GetProductsOfCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/AddProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStock">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/UpdateStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/UpdatePrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateName">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/UpdateName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProduct">
+      <soap:operation soapAction="http://tempuri.org/InventoryInterface/DeleteProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_InventoryInterface" type="tns:InventoryInterface">
+    <wsp:PolicyReference URI="#NetTcpBinding_InventoryInterface_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetProducts">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/GetProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithName">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/GetProductWithName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductWithId">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/GetProductWithId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsOfCategory">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/GetProductsOfCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/AddProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStock">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/UpdateStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrice">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/UpdatePrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateName">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/UpdateName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProduct">
+      <soap12:operation soapAction="http://tempuri.org/InventoryInterface/DeleteProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Inventory">
+    <wsdl:port name="BasicHttpBinding_InventoryInterface" binding="tns:BasicHttpBinding_InventoryInterface">
+      <soap:address location="http://localhost:8000/InventoryService/InventoryService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_InventoryInterface" binding="tns:NetTcpBinding_InventoryInterface">
+      <soap12:address location="net.tcp://localhost:8010/InventoryService/InventoryService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8010/InventoryService/InventoryService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-KV39Q8P\Akshay</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

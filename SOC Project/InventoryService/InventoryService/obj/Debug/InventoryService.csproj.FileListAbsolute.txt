@@ -1,0 +1,7 @@
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\bin\Debug\InventoryService.dll.config
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\bin\Debug\InventoryService.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\bin\Debug\InventoryService.pdb
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\obj\Debug\InventoryService.csprojAssemblyReference.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\obj\Debug\InventoryService.csproj.CoreCompileInputs.cache
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\obj\Debug\InventoryService.dll
+C:\Users\Akshay\Desktop\SOC Project\InventoryService\InventoryService\obj\Debug\InventoryService.pdb

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8000/InventoryService?wsdl" uri="wsdl/localhost_8000/InventoryService.wsdl"/>
+    <system systemId="http://localhost:8000/InventoryService?xsd=xsd0" uri="wsdl/localhost_8000/InventoryService.xsd_xsd0.xsd"/>
+    <system systemId="http://localhost:8000/InventoryService?xsd=xsd1" uri="wsdl/localhost_8000/InventoryService.xsd_xsd1.xsd"/>
+    <system systemId="http://localhost:8000/InventoryService?xsd=xsd2" uri="wsdl/localhost_8000/InventoryService.xsd_xsd2.xsd"/>
+</catalog>
